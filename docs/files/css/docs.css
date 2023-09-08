@@ -1,63 +1,84 @@
-/* Docs sample */
-
-body{
-	margin:0;
-	padding:0;
-	overflow:hidden;
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-.logo{
-    display: flex; 
+.logo {
+    display: flex;
     justify-content: center;
     margin-top: 1rem;
 }
 
-#canvas{
-	width: 960px;
-	height: 600px;
-	margin: 50px auto;
+#canvas {
+    width: 1200px;
+    height: 800px;
+    margin: 70px auto;
 }
 
-#book-zoom{
-	-webkit-transition: -webkit-transform 1s;
-	-moz-transition: -moz-transform 1s;
-	-ms-transition: -ms-transform 1s;
-	-o-transition: -o-transform 1s;
-	transition: transform 1s;
+#book-zoom {
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -ms-transition: -ms-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
 }
 
-.animated{
-	-webkit-transition:margin-left 0.2s ease-in-out;
-	-moz-transition:margin-left 0.2s ease-in-out;
-	-o-transition:margin-left 0.2s ease-in-out;
-	-ms-transition:margin-left 0.2s ease-in-out;
-	transition:margin-left 0.2s ease-in-out;
+.animated {
+    -webkit-transition: margin-left 0.2s ease-in-out;
+    -moz-transition: margin-left 0.2s ease-in-out;
+    -o-transition: margin-left 0.2s ease-in-out;
+    -ms-transition: margin-left 0.2s ease-in-out;
+    transition: margin-left 0.2s ease-in-out;
 }
 
-.sample-docs{
-	margin-top:20px;
-	width:942px;
-	height:600px;
+.sample-docs {
+    width: 1200px;
+    height: 800px;
 }
 
-.sample-docs .page{
-	width:471px;
-	height:600px;
-	background:white;
+.sample-docs .page {
+    width: 12000px;
+    height: 800px;
+    background: white;
 
-	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
-	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
-	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
-	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
-	box-shadow:0 0 20px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-.sample-docs .hard{
-	background-image:url(../pics/covers.jpg);
+.sample-docs .hard {
+    width: 600px;
+    height: 800px;
+    background-size: 600px 800px;
+    background-position: center; /* You may adjust this as needed */
 }
+
+.sample-docs .hard.p1 {
+    background-image: url('/files/pages/Capa.jpg');
+	background-position: 0 0;
+}
+
+.sample-docs .hard.p2 {
+    background-image: url('/files/pages/Indice.jpg');
+	background-position: 0 0;
+}
+
+.sample-docs .hard.p29 {
+    background-image: url('/files/pages/Contacte-nos.jpg');
+	background-position: 0 0;
+}
+
+.sample-docs .hard.p30 {
+    background-image: url('/files/pages/Contracapa.jpg');
+	background-position: 0 0;
+}
+
 
 .sample-docs .p2{
-	background-position:-471px 0;
+	background-position:-571px 0;
 }
 
 .sample-docs .p28{
