@@ -72,22 +72,22 @@ body {
 }
 
 .sample-docs .hard.p1 {
-    background-image: url('./docs/files/pages/Capa.jpg');
+    background-image: url('../pages/Capa.jpg');
 	background-position: 0 0;
 }
 
 .sample-docs .hard.p2 {
-    background-image: url('./docs/files/pages/Indice.jpg');
+    background-image: url('../pages/Indice.jpg');
 	background-position: 0 0;
 }
 
 .sample-docs .hard.p29 {
-    background-image: url('./docs/files/pages/Contacte-nos.jpg');
+    background-image: url('../pages/Contacte-nos.jpg');
 	background-position: 0 0;
 }
 
 .sample-docs .hard.p30 {
-    background-image: url('./docs/files/pages/Contracapa.jpg');
+    background-image: url('../pages/Contracapa.jpg');
 	background-position: 0 0;
 }
 
